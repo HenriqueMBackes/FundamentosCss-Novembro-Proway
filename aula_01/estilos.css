@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(245, 245, 245);
+    font-family: calibri;
+    font-size: 18px;
+}
+p{
+    color: green;
+}
+img{
+    width: 100px;
+}
+a{
+    text-decoration: none;
+}
+#meuId{
+    border: 1px solid black;
+    color: green;
+}
+#bordaGrossa{
+    border: 3px dashed black;
+}
+.removerEstilo{
+    text-decoration: none;
+}
+#time{
+    text-decoration: none; 
+    background-color: red; 
+    color: white; 
+    font-size: 20px; 
+    font-family: Arial; 
+    border: 2px solid black; 
+    border-radius: 8px;
+    
+}
+
+#time::after{
+    content: "Internacional maior do sul!";
+
+}
+#time:hover{
+    background-color: white;
+    color: red;
+}
+#time:hover::after{
+    content: "Grêmio TRI-rebaixado";
+}
+
+.nomesProprios{
+    text-transform: capitalize;
+}
+.title{
+    background-color: pink;
+}
