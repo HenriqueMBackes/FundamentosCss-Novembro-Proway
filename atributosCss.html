@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #repetirHorizontal{
+            background-image: url:(google.png);
+            background-repeat: repeat-x;
+            width: 500px;
+            height: 500px;
+            border: 1px solid black;
+        }
+
+        #naoRepete{
+            background-image: url(google.png);
+            background-repeat: no-repeat;
+        }
+
+        .caixa{
+            width: 500px;
+            height: 500px;
+            border: 1px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <ol>
+        <li style=" color: red">cor de fundo pelo nome</li>
+
+        <li style="color: #c5c73b;"><b>cor por hexadecimal</b></li>
+
+        <li style="color: rgb(11, 94, 31);"><i>cor por rgb</i></li>
+
+        <li style="background-image: url(google.png)">
+
+
+        </li>
+        <li>
+            <div id="naoRepete" class="caixa">
+                repete meu fi 
+            </div>
+        </li>
+        <li>
+            <div id="repetirHorizontal" class="caixa">
+                repete meu fi 
+            </div>
+        </li>
+        <li>
+            <div id="repetirVertical" class="caixa">
+                repete meu fi 
+            </div>
+        </li>
+    </ol>
+</body>
+</html>

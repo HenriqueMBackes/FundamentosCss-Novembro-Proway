@@ -10,6 +10,20 @@
     border-radius: 100px;
 }
 
+header{
+    display: flex;
+}
+
 span{
     text-transform: capitalize;
+}
+
+section{
+    width: 15%;
+    background-color: green;
+}
+
+aside{
+    width: 85%;
+    background-color: black;
 }
