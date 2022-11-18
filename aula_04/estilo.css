@@ -1,0 +1,17 @@
+img{
+    width: 300px;
+    border-radius: 15px;
+}
+
+header{
+    margin-top: 100px;
+}
+
+.opcao{
+    text-decoration: none;
+    color: white;
+}
+
+.conteudo{
+    text-align: justify;
+}
